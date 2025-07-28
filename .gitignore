@@ -18,11 +18,15 @@ backend/data/
 *.7z
 *.rar
 
-# Specific dataset patterns
-*glim*
-*GLHYMPS*
-*GLiM*
-*glhymps*
+# Specific dataset patterns (exclude actual data files, not code)
+*glim*.shp
+*glim*.gdb
+*GLHYMPS*.shp
+*GLHYMPS*.gdb
+*GLiM*.shp
+*GLiM*.gdb
+*glhymps*.shp
+*glhymps*.gdb
 
 # Python
 __pycache__/
