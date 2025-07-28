@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test Area",
+        "description": "Sample area of interest for testing GeoGlim clipping functionality"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.0, 40.7],
+            [-74.0, 40.8],
+            [-73.9, 40.8],
+            [-73.9, 40.7],
+            [-74.0, 40.7]
+          ]
+        ]
+      }
+    }
+  ]
+}
